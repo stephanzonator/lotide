@@ -40,4 +40,4 @@ console.log(countLetters("lighthouse in the house"), {
   n: 1,
 });
 
-
+module.exports = countLetters;
