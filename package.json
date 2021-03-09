@@ -1,0 +1,26 @@
+{
+  "name": "@stephanzonator/lotide",
+  "version": "1.0.0",
+  "description": "test project for Lighthouse Labs coding bootcamp",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanzonator/lotide.git"
+  },
+  "author": "Stephanie Harrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephanzonator/lotide/issues"
+  },
+  "homepage": "https://github.com/stephanzonator/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
+}
