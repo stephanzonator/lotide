@@ -25,7 +25,7 @@ const flatten = function(array) {
         result.push(newArray[i]);
       }
     }
-  }
+  };
   flatRecursion(array);
   
   return result;

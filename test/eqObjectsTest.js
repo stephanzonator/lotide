@@ -2,18 +2,18 @@ const eqObjects = require('../eqObjects');
 const assert = require('chai').assert;
 
 describe("#eqObjects", () => {
-  it ("should correctly compare primitives", () => {
+  it("should correctly compare primitives", () => {
     assert.deepEqual(eqObjects(ab, ba), true);
   });
-  it ("should correctly compare primitives, different sizes", () => {
+  it("should correctly compare primitives, different sizes", () => {
     assert.deepEqual(eqObjects(ab, abc), false);
   });
 
-  it ("should correctly compare arrays of the same size", () => {
+  it("should correctly compare arrays of the same size", () => {
     assert.deepEqual(eqObjects(cd, dc), true);
   });
 
-  it ("should correctly compare arrays of different sizes", () => {
+  it("should correctly compare arrays of different sizes", () => {
     assert.deepEqual(eqObjects(cd, cd2), false);
   });
 });
@@ -29,8 +29,8 @@ const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
 const cd2 = { c: "1", d: ["2", 3, 4] };
 
-const ef = { e: 1, f: [1]};
-const fe = { e: 1, f: 1};
+// const ef = { e: 1, f: [1]};
+// const fe = { e: 1, f: 1};
 
 // assertEqual(eqObjects(ab, ba), true);
 // assertEqual(eqObjects(ab, abc), false);

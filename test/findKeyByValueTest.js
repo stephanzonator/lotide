@@ -2,15 +2,15 @@ const findKeyByValue = require('../findKeyByValue');
 const assert = require('chai').assert;
 
 describe("#find key by value", () => {
-  it ("should correctly identify a value by key, 1", () => {
+  it("should correctly identify a value by key, 1", () => {
     assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
   });
 
-  it ("should correctly identify a value by key, 1", () => {
+  it("should correctly identify a value by key, 1", () => {
     assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
   });
 
-  it ("should correctly identify a value by key, 1", () => {
+  it("should correctly identify a value by key, 1", () => {
     assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"), "comedy");
   });
 });

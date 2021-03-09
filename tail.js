@@ -1,4 +1,4 @@
-const assertEqual = require('./assertEqual');
+// const assertEqual = require('./assertEqual');
 
 const tail = function(array) {
   if (array.length < 2) {
@@ -13,4 +13,4 @@ const tail = function(array) {
 // console.log(tail([]));
 // console.log(tail(["singleton"]));
 
-module.exports = tail; 
+module.exports = tail;

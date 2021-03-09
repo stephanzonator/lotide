@@ -2,15 +2,15 @@ const countOnly = require('../countOnly');
 const assert = require('chai').assert;
 
 describe("#count Only", () => {
-  it ("should correctly identify names selected", () => {
+  it("should correctly identify names selected", () => {
     assert.strictEqual(result1["Jason"], 1);
   });
 
-  it ("should correctly identify names not selected as undefined", () => {
+  it("should correctly identify names not selected as undefined", () => {
     assert.strictEqual(result1["Karima"], undefined);
   });
 
-  it ("should correctly count multiples of selected names", () => {
+  it("should correctly count multiples of selected names", () => {
     assert.strictEqual(result1["Fang"], 2);
   });
 });
